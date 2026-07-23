@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dedicada Lavanderia | Lavagem a Seco, Wet Cleaning e Delivery em Florianópolis</title>
-  <meta name="description" content="Lavanderia profissional em Florianópolis com unidades no Centro e Santa Mônica. Especialistas em Wet Cleaning ecológico, lavagem a seco, couro, trajes finos e coleta/entrega em toda a ilha.">
-  <meta name="keywords" content="lavanderia florianopolis, lavanderia centro florianopolis, lavanderia santa monica, wet cleaning, lavagem a seco, delivery lavanderia, passadoria executiva">
+  <meta name="description" content="Lavanderia profissional em Florianópolis com unidades no Centro e Santa Mônica. Especialistas em Wet Cleaning ecológico, tecnologia italiana, lavagem a seco, couro, trajes finos e coleta/entrega.">
+  <meta name="keywords" content="lavanderia florianopolis, lavanderia centro florianopolis, lavanderia santa monica, wet cleaning, tecnologia italiana lavanderia, lavagem a seco, delivery lavanderia, passadoria executiva">
   
-  <!-- Tailwind CSS CDN para estilização ultraveloz sem build -->
+  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
-  <!-- Dados Estruturados Schema.org (JSON-LD) para SEO e IA -->
+  <!-- Dados Estruturados Schema.org (JSON-LD) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,7 +29,7 @@
         "priceRange": "$$",
         "paymentAccepted": "Pix, Credit Card, Debit Card, Cash",
         "currenciesAccepted": "BRL",
-        "description": "Matriz no Centro de Florianópolis há mais de 20 anos. Especializada em Wet Cleaning ecológico com produtos alemães Seitz, lavagem a seco, passadoria executiva e delivery.",
+        "description": "Matriz no Centro de Florianópolis há mais de 20 anos. Especializada em Wet Cleaning ecológico com tecnologia italiana de ponta, lavagem a seco, passadoria executiva e delivery.",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Rua Germano Wendhausen, 286",
@@ -71,19 +71,28 @@
   <!-- Header / Navegação -->
   <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <div class="w-10 h-10 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black text-xl shadow-md">D</div>
+      
+      <!-- Logo Clicável apontando para o site principal -->
+      <a href="https://dedicadalavanderia.com.br" class="flex items-center space-x-3 group">
+        <div class="w-10 h-10 bg-blue-600 text-white rounded-xl flex items-center justify-center font-black text-xl shadow-md group-hover:bg-blue-700 transition">D</div>
         <div>
           <span class="text-xl font-bold tracking-tight text-slate-900 block leading-tight">Dedicada</span>
           <span class="text-xs text-blue-600 font-semibold tracking-wider uppercase">Lavanderia & Delivery</span>
         </div>
-      </div>
+      </a>
+
+      <!-- Menu com Link para o Site Oficial -->
       <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-600">
+        <a href="https://dedicadalavanderia.com.br" target="_blank" class="text-blue-600 font-semibold hover:underline flex items-center gap-1">
+          <i data-lucide="external-link" class="w-4 h-4"></i>
+          Site Oficial
+        </a>
         <a href="#servicos" class="hover:text-blue-600 transition">Serviços</a>
         <a href="#delivery" class="hover:text-blue-600 transition">Coleta & Entrega</a>
         <a href="#unidades" class="hover:text-blue-600 transition">Unidades</a>
-        <a href="#faq" class="hover:text-blue-600 transition">Perguntas Frequentes</a>
+        <a href="#faq" class="hover:text-blue-600 transition">FAQ</a>
       </nav>
+
       <a href="https://wa.me/5548984280639?text=Olá!%20Gostaria%20de%20agendar%20uma%20coleta%20ou%20solicitar%20um%20orçamento." target="_blank" class="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-emerald-600 text-white text-sm font-semibold shadow-md hover:bg-emerald-700 transition hover:scale-105">
         <i data-lucide="phone-call" class="w-4 h-4 mr-2"></i>
         Pedir no WhatsApp
@@ -100,7 +109,7 @@
         Mais de 20 anos de tradição em Florianópolis
       </span>
       <h1 class="text-4xl sm:text-6xl font-black tracking-tight leading-tight mb-6">
-        Sua roupa tratada com <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-teal-200">cuidado artesanal</span> e tecnologia alemã.
+        Sua roupa tratada com <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-teal-200">cuidado artesanal</span> e tecnologia italiana.
       </h1>
       <p class="text-lg sm:text-xl text-blue-100/90 max-w-3xl mx-auto mb-10 font-normal leading-relaxed">
         Especialistas em Wet Cleaning ecológico, lavagem a seco, couro, vestidos de noiva e passadoria executiva. Coleta e entrega ágil em todos os bairros de Florianópolis.
@@ -110,8 +119,8 @@
           <i data-lucide="truck" class="w-5 h-5 mr-2"></i>
           Agendar Coleta em Domicílio
         </a>
-        <a href="#unidades" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 text-white font-semibold text-base border border-white/20 hover:bg-white/20 transition flex items-center justify-center">
-          Ver Unidades (Centro e Santa Mônica)
+        <a href="https://dedicadalavanderia.com.br" target="_blank" class="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 text-white font-semibold text-base border border-white/20 hover:bg-white/20 transition flex items-center justify-center">
+          Acessar Site Principal (WordPress)
         </a>
       </div>
     </div>
@@ -122,8 +131,8 @@
     <div class="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
       <div class="p-4">
         <i data-lucide="sparkles" class="w-8 h-8 text-blue-600 mx-auto mb-3"></i>
-        <h4 class="font-bold text-slate-900">Tecnologia Seitz</h4>
-        <p class="text-xs text-slate-500 mt-1">Insumos ecológicos alemães de alta perfomance.</p>
+        <h4 class="font-bold text-slate-900">Tecnologia Italiana</h4>
+        <p class="text-xs text-slate-500 mt-1">Insumos ecológicos e equipamentos de alta performance.</p>
       </div>
       <div class="p-4">
         <i data-lucide="clock" class="w-8 h-8 text-blue-600 mx-auto mb-3"></i>
@@ -159,7 +168,7 @@
         </div>
         <h3 class="text-xl font-bold text-slate-900 mb-3">Wet Cleaning Ecológico</h3>
         <p class="text-slate-600 text-sm leading-relaxed">
-          Higienização computadorizada em água utilizando detergentes biodegradáveis alemães (Seitz). Preserva fibras sensíveis sem agredir o meio ambiente.
+          Higienização computadorizada em água utilizando detergentes biodegradáveis e tecnologia italiana de ponta. Preserva fibras sensíveis sem agredir o meio ambiente.
         </p>
       </div>
 
@@ -320,7 +329,7 @@
             <span class="text-blue-600 group-open:rotate-180 transition">▼</span>
           </summary>
           <p class="text-slate-600 text-sm mt-4 leading-relaxed">
-            O Wet Cleaning utiliza água tratada e produtos biodegradáveis alemães (Seitz) controlados por computador. Diferente da lavagem comum, ele não encolhe nem desbota tecidos sensíveis como lã, seda e linho.
+            O Wet Cleaning utiliza água tratada e produtos biodegradáveis com tecnologia italiana controlados por computador. Diferente da lavagem comum, ele não encolhe nem desbota tecidos sensíveis como lã, seda e linho.
           </p>
         </details>
 
@@ -356,6 +365,7 @@
         <p class="text-xs text-slate-500 mt-2">© 2026 Dedicada Lavanderia. Todos os direitos reservados.</p>
       </div>
       <div class="mt-6 md:mt-0 flex justify-center space-x-6 text-sm">
+        <a href="https://dedicadalavanderia.com.br" target="_blank" class="text-blue-400 font-semibold hover:underline">Site Principal</a>
         <a href="#servicos" class="hover:text-white transition">Serviços</a>
         <a href="#delivery" class="hover:text-white transition">Delivery</a>
         <a href="#unidades" class="hover:text-white transition">Unidades</a>
